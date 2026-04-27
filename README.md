@@ -253,7 +253,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: -0.02em;
 }
 
-/* Header & Nav */
 header {
     position: fixed;
     top: 0;
@@ -296,7 +295,6 @@ nav {
     color: var(--accent-color);
 }
 
-/* Main Layout */
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -318,7 +316,6 @@ h2 {
     margin-bottom: 2.5rem;
 }
 
-/* Hero Section */
 #hero {
     display: flex;
     align-items: center;
@@ -390,7 +387,6 @@ h2 {
     border-color: var(--accent-color);
 }
 
-/* About Section */
 .about-section {
     display: flex;
     align-items: center;
@@ -440,7 +436,6 @@ h2 {
     transform: scale(1.02);
 }
 
-/* Experience & Projects */
 .experience-item, .project-item {
     margin-bottom: 3.5rem;
     padding: 2rem;
@@ -494,7 +489,6 @@ ul li {
     border-bottom-color: var(--text-muted);
 }
 
-/* Skills */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -531,7 +525,6 @@ ul li {
     color: var(--text-muted);
 }
 
-/* Contact */
 #contact p {
     color: var(--text-muted);
     margin-bottom: 2rem;
@@ -559,7 +552,6 @@ ul li {
     border-bottom-color: var(--accent-color);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 3rem 2rem;
@@ -567,7 +559,6 @@ footer {
     color: var(--text-muted);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
